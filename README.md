@@ -1,6 +1,6 @@
 # 📝 Task Manager API (Flask)
 
-API REST simples para gerenciamento de tarefas (CRUD), desenvolvida com Flask utilizando separação de responsabilidades (routes + services).
+API REST para gerenciamento de tarefas (CRUD), desenvolvida com Flask utilizando separação de responsabilidades (routes + services).
 
 Projeto criado com foco em:
 
