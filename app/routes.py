@@ -1,8 +1,18 @@
 from flask import request, jsonify
 from .services import get_all_tasks, create_task, update_task, delete_task
 
-def register_routes(app):
+"""
+Arquivo responsável por definir as rotas (endpoints) da aplicação.
 
+As rotas recebem requisições HTTP e chamam as funções
+responsáveis pelas regras de negócio (services).
+"""
+
+def register_routes(app):
+    """
+    Função responsável por registrar todas as rotas
+    no objeto principal da aplicação.
+    """
     @app.route("/tasks", methods=["GET"])
     def list_tasks():
         return jsonify(get_all_tasks())

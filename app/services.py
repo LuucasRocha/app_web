@@ -1,5 +1,13 @@
 from .models import Task
 
+"""
+Arquivo responsável pelas regras de negócio da aplicação.
+
+Aqui ficam as funções que manipulam os dados.
+As rotas apenas chamam essas funções.
+"""
+
+# Simulação de banco de dados em memória
 tasks = list()
 next_id = 1
 
