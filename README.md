@@ -13,7 +13,7 @@ Projeto criado com foco em:
 
 ## 🚀 Tecnologias utilizadas
 
-- Python 3.x
+- Python 
 - Flask
 - JSON (API REST)
 
